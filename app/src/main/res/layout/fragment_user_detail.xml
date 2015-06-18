@@ -1,0 +1,93 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/textAppearanceLarge"
+        android:padding="16dp"
+        tools:context="codes.kevinvanzyl.pricecloud.UserDetailFragment"
+        android:text="First Name"/>
+
+    <TextView
+        android:id="@+id/user_firstname"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:textIsSelectable="true"
+        tools:context="codes.kevinvanzyl.pricecloud.UserDetailFragment" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/textAppearanceLarge"
+        android:padding="16dp"
+        tools:context="codes.kevinvanzyl.pricecloud.UserDetailFragment"
+        android:text="Last Name"/>
+
+    <TextView
+        android:id="@+id/user_lastname"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:textIsSelectable="true"
+        tools:context="codes.kevinvanzyl.pricecloud.UserDetailFragment" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/textAppearanceLarge"
+        android:padding="16dp"
+        tools:context="codes.kevinvanzyl.pricecloud.UserDetailFragment"
+        android:text="Username"/>
+
+    <TextView
+        android:id="@+id/user_username"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:textIsSelectable="true"
+        tools:context="codes.kevinvanzyl.pricecloud.UserDetailFragment" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/textAppearanceLarge"
+        android:padding="16dp"
+        tools:context="codes.kevinvanzyl.pricecloud.UserDetailFragment"
+        android:text="Email"/>
+
+    <TextView
+        android:id="@+id/user_email"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:textIsSelectable="true"
+        tools:context="codes.kevinvanzyl.pricecloud.UserDetailFragment" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/textAppearanceLarge"
+        android:padding="16dp"
+        tools:context="codes.kevinvanzyl.pricecloud.UserDetailFragment"
+        android:text="Phone"/>
+
+    <TextView
+        android:id="@+id/user_phone"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:textIsSelectable="true"
+        tools:context="codes.kevinvanzyl.pricecloud.UserDetailFragment" />
+
+</LinearLayout>
